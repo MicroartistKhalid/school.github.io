@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>Form</title>
+<link type="text/css" rel="stylesheet" href="css.css">
+</head>
+<body bgcolor="lightgrey">
+
+<form>
+<fieldset class="frm">
+<legend>Application Form</legend>
+
+	<table width=100%>
+	<tr>
+		<td  width=50%><font size="4">
+ First Name:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" maxlength=20  name =Fname>
+</input> <P>
+Last Name:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" maxlength=20  name =Lname>
+</input><P>
+Gender:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<SELECT   NAME="gender">
+	<OPTION  VALUE="male"> MALE </OPTION>
+	<OPTION  VALUE="female"> FEMALE </OPTION>
+</SELECT>
+<P>
+Date of Birth:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="date"  name =dob>
+</input><P>
+<br>
+<br>
+<u><h4>Family Information</h4></u>
+Father's Name:       
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" maxlength=20  name ="faName">
+</input><P>
+Father's Occupation:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" maxlength=20  name ="insCom">
+</input><P>
+Mother's Name:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" maxlength=20  name ="moNo">
+</input><P>
+Mother's Occupation:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" maxlength=20  name ="PhyName">
+</input><P>
+Phone Number:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" maxlength=20  name ="Phno">
+</input><P>
+Guardian's Name (If any):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" maxlength=100 name ="Allerg">
+</input><P>
+
+	</td>
+
+		<td align="top">
+<u><h3> Emergency Contact Info</h3></u><P>
+<font size="4">
+ Name:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" maxlength="20"  name ="name">
+</input> <P>
+ Relationship:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" maxlength=20  name ="rel">
+</input> <P>
+ Address:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" maxlength=100  name ="address">
+</input> <P>
+City:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type=text maxlength=20  name =city>
+</input> <P>
+State:	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<SELECT   NAME=STATE><OPTION  VALUE= -select-> -select- </OPTION>
+<OPTION  VALUE="UP"> UP </OPTION>
+<OPTION  VALUE="MP"> MP </OPTION>
+<OPTION  VALUE="HP"> HP </OPTION>
+<OPTION  VALUE="BR">BR </OPTION>
+<OPTION  VALUE="JK"> JK </OPTION>
+<OPTION  VALUE="JH"> JH </OPTION>
+<OPTION  VALUE="TN"> TN </OPTION>
+<OPTION  VALUE="KR"> KR </OPTION>
+<OPTION  VALUE="GU"> GU </OPTION>
+<OPTION  VALUE="RJ"> RJ</OPTION>
+<OPTION  VALUE="AP"> AP </OPTION>
+</SELECT ><p>
+Country:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<SELECT   NAME="country"><OPTION  VALUE= -select-> -select- </OPTION>
+<OPTION  VALUE="India">India </OPTION>
+<OPTION  VALUE="USA">USA  </OPTION>
+<OPTION  VALUE="UK">UK</OPTION>
+<OPTION  VALUE="Australia">Australia </OPTION>
+<OPTION  VALUE="Pakistan">Pakistan </OPTION>
+<OPTION  VALUE="Bhutan">Bhutan </OPTION>
+<OPTION  VALUE="China">China </OPTION>
+<OPTION  VALUE="Japan">Japan  </OPTION>
+<OPTION  VALUE="Korea">N Korea </OPTION>
+<OPTION  VALUE="S Korea">S Korea</OPTION>
+</SELECT ><p>
+Home Phone:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input type="number" maxlength=20  name =hp>
+</input><p>
+Work Phone:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="number" maxlength=20  name =wp>
+</input>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+		</td>
+	</tr>
+</table>
+<center>
+<input type="submit" Name="Submit" value="Submit"/>
+<input type="Reset" Name="Reset" value="Reset"/>
+</center>
+</fieldset>
+<br><br><br><br><br>
+</forms>
+<div class="footer">
+<ul>
+	
+	<li><a href=""><img src="icon\facebook-square.svg"></a></li>
+	<li><a href=""><img src="icon\google-plus-square.svg"></a></li>
+	<li><a href=""><img src="icon\twitter-square.svg"></a></li>
+
+
+</ul>
+</div>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
